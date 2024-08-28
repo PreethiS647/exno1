@@ -143,8 +143,8 @@ sns.heatmap(df.isnull(),yticklabels=False,annot=True)
 ```
 
 ![image](https://github.com/user-attachments/assets/c7a02c59-4bea-49b0-8c13-9d38068bf243)
-
-
+```
+```
 ## OUTLIER DETECTION AND REMOVAL USING IQR
 
 ```
@@ -206,7 +206,6 @@ upper_bound
 ```
 outliers = [x for x in age if (x < lower_bound.iloc[0]) or (x > upper_bound.iloc[0])]
 ```
-
 # Extract the numeric values from the Series for comparison
 
 ```
@@ -297,7 +296,8 @@ op
 ```
 
 ![image](https://github.com/user-attachments/assets/92c6a893-04a6-4e65-898c-d0d52386dffa)
-
+```
+```
 
 # Result
-          Thus we have cleaned the data and removed the outliers by detection using IQR and Z-score method.
+      Thus we have cleaned the data and removed the outliers by detection using IQR and Z-score method.
