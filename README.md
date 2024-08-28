@@ -88,9 +88,10 @@ df.shape
 mn=df.TOTAL.mean()
 df.TOTAL.fillna(mn,inplace=True)
 df
-``
+```
 
 ![image](https://github.com/user-attachments/assets/98ebfc5a-5115-471d-8566-c3457f32abf4)
+
 
 ```
 df.M1.dropna(inplace=True)
