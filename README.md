@@ -205,10 +205,6 @@ upper_bound
 
 ```
 outliers = [x for x in age if (x < lower_bound.iloc[0]) or (x > upper_bound.iloc[0])]
-```
-# Extract the numeric values from the Series for comparison
-
-```
 print("q1",q1)
 print("q3",q3)
 print("iqr",iqr)
@@ -300,4 +296,4 @@ op
 ```
 
 # Result
-      Thus we have cleaned the data and removed the outliers by detection using IQR and Z-score method.
+Thus we have cleaned the data and removed the outliers by detection using IQR and Z-score method.
