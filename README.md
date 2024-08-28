@@ -249,7 +249,7 @@ for i in data:
   if z>threshold:
     outlier.append(i)
     print('Outlier in dataset is:',outlier)
-    ```
+```
 
 ![image](https://github.com/user-attachments/assets/d1a5be38-760e-4f83-bc84-d81b7f6a9100)
 
@@ -299,82 +299,5 @@ op
 ![image](https://github.com/user-attachments/assets/92c6a893-04a6-4e65-898c-d0d52386dffa)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-```
 # Result
-          <<include your Result here>>
+          Thus we have cleaned the data and removed the outliers by detection using IQR and Z-score method.
